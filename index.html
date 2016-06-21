@@ -10,6 +10,7 @@
     </head>
 
     <body>
+        
         <div class="page-header" id="header" style=" width:100%; height:200px; text-align:center;">
              <h1 class="project-name" style="line-height:200px;" >Beckbusch.GitHub.io</h1>
         </div>
@@ -35,6 +36,16 @@
         <div id="footer" style="height:150px;  width:100%;">
              <h2>footer</h2>
         </div>
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 215.41 || document.documentElement.scrollTop > 215.41) {
+        document.getElementById("navagation").style.position = "fixed";
+        document.getElementById("navagation").style.top = "0px";
+    }
+}
+</script>
     </body>
 
 </html>
