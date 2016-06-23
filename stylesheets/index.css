@@ -6,7 +6,7 @@ body {
     border-radius:25px;
     background-color: #DF5A49;
 }
-#navagation {
+nav {
     text-align:center;
     border-radius:25px;
     background-color: #45B29D;
@@ -15,18 +15,18 @@ body {
     background-color: #E27A3F;
     border-radius:25px;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border-radius: 25px;}
-li {float: left;}
-li a {display: block;
+nav ul li {float: left;}
+nav ul li a {display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;}
-li a:hover {color: white;
+nav ul li a:hover {color: white;
   background-color: black;
   opacity: 0.3;}
 h1 {color: #334D5C;}
