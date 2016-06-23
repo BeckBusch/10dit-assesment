@@ -1,13 +1,12 @@
-
 <html>
 
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>10DIT Web Design Assessment</title>
-        <script src="/10dit-assesment/scripts/index.js" type="text/javascript" charset="utf-8"></script>
+        <script src="http://beckbusch.github.io/10dit-assesment/scripts/index.js" type="text/javascript" charset="utf-8"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-         <link href="/10dit-assesment/stylesheets/index.css" rel="stylesheet" type="text/css">
-         <link href="/10dit-assesment/stylesheets/verdanafontstylesheet.css" rel="stylesheet" type="text/css">
+        
+        
          
     </head>
 
@@ -40,6 +39,30 @@
         <div id="footer" style="height:150px;  width:100%;">
              <h2>footer</h2>
         </div>
+        <script>
+            (function($) {
+    "use strict";
+
+    var $navbar = $("#navbar"),
+        y_pos = $navbar.offset().top,
+        height = $navbar.height();
+
+    $(document).scroll(function() {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > y_pos + height) {
+            $navbar.addClass("navbar-fixed").animate({
+                top: 0
+            });
+        } else if (scrollTop <= y_pos) {
+            $navbar.removeClass("navbar-fixed").clearQueue().animate({
+                top: "-48px"
+            }, 0);
+        }
+    });
+
+})(jQuery, undefined);
+        </script>
 
     </body>
 
