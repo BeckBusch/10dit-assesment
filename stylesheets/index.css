@@ -1,3 +1,7 @@
+.navbar-fixed {
+  position: fixed;
+  top: -3em;
+}
 
 body {
     background-color: #EFC94C;
