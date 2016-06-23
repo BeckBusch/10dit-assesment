@@ -41,14 +41,14 @@
              <h2>footer</h2>
         </div>
 <script>
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-    if (document.body.scrollTop > 215.41 || document.documentElement.scrollTop > 215.41) {
-        document.getElementById("navagation").style.position = "fixed";
-        document.getElementById("navagation").style.top = "0px";
+$(window).scroll(function () {
+    winHeight = $(window).height();
+    if ($(window).scrollTop() > winHeight) {
+        $('.navbar').css('position', 'fixed');
+        $('.navbar').css('top', '0');
     }
-}
+});
+
 </script>
     </body>
 
