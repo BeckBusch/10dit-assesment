@@ -1,14 +1,12 @@
 <html>
-
-    <head>
+<head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>10DIT Web Design Assessment</title>
         <script src="http://beckbusch.github.io/10dit-assesment/scripts/index.js" type="text/javascript" charset="utf-8"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
         <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
     </head>
-
-    <body>
+ <body>
     <section class="page-header" style="text-align: center;">
         <div class="page-header" id="header" style=" width:100%; height:200px; text-align:center;">
              <h1 class="project-name" style="line-height:200px;" >Beckbusch.GitHub.io</h1>
@@ -38,34 +36,8 @@
             <h1>Filler</h1>
             </div>
         
-        <div id="footer" style="height:150px;  width:100%;">
-             <h2>footer</h2>
-        </div>
-        <script>
-            (function($) {
-    "use strict";
-
-    var $navbar = $("#navbar"),
-        y_pos = $navbar.offset().top,
-        height = $navbar.height();
-
-    $(document).scroll(function() {
-        var scrollTop = $(this).scrollTop();
-
-        if (scrollTop > y_pos + height) {
-            $navbar.addClass("navbar-fixed").animate({
-                top: 0
-            });
-        } else if (scrollTop <= y_pos) {
-            $navbar.removeClass("navbar-fixed").clearQueue().animate({
-                top: "-48px"
-            }, 0);
-        }
-    });
-
-})(jQuery, undefined);
-        </script>
+        
+        
 
     </body>
-
 </html>
