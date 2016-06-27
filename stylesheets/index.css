@@ -7,16 +7,16 @@
 }
 
 body {
-    background-color: #EFC94C;
+    background-color: #057138;
 }
 #header {
     text-align:center;
     border-radius:25px;
-    background-color: #DF5A49;
+    background-color: #D03724;
 }
 nav {
     border-radius:25px;
-    background-color: #45B29D;
+    background-color: #1D92C5;
 }
 #footer {
     background-color: #E27A3F;
@@ -37,10 +37,19 @@ nav ul li a {display: block;
 nav ul li a:hover {color: white;
   background-color: black;
   opacity: 0.3;}
-h1 {color: #334D5C;}
+
+h1 {color: #fff;}
+h2 {color: #fff;}
+h3 {color: #fff;}
+h4 {color: #fff;}
+h5 {color: #fff;}
+h6 {color: #fff;}
+p {color: #fff;}
+  
+/*h1 {color: #334D5C;}
 h2 {color: #334D5C;}
 h3 {color: #334D5C;}
 h4 {color: #334D5C;}
 h5 {color: #334D5C;}
 h6 {color: #334D5C;}
-p {color: #334D5C;}
+p {color: #334D5C;}*/
