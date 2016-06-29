@@ -18,4 +18,4 @@
 * Design elements such as contrast, alignment, consistency, size/proportion must be used to enable readability & usability of text and media content.
 
 ## Web Design & Development - Assessment Schedule
-[Click Here](www.beckbusch.github.io/10dit-assesment/mark.html)
+[Click Here](http://beckbusch.github.io/10dit-assesment/mark.html)
