@@ -1,18 +1,17 @@
-
+* {font-family: verdana;}
 body {
-    background-color: #057138;
+    background-color: #07793d;
 }
 #header {
     text-align:center;
     border-radius:25px;
-    background-color: #D03724;
+    background-color: #a92b2b;
 }
-
-#footer {
-    background-color: #E27A3F;
+nav {
+    margin-bottom: 5px;
     border-radius:25px;
+    background-color: #187da9;
 }
-
 
 h1 {color: #fff;}
 h2 {color: #fff;}
