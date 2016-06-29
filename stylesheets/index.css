@@ -5,19 +5,19 @@
   position: fixed;
   top: -3em;
 }
-
+* {font-family: verdana;
 body {
-    background-color: #057138;
+    background-color: #07793d;
 }
 #header {
     text-align:center;
     border-radius:25px;
-    background-color: #D03724;
+    background-color: #a92b2b;
 }
 nav {
     margin-bottom: 5px;
     border-radius:25px;
-    background-color: #1D92C5;
+    background-color: #187da9;
 }
 #footer {
     background-color: #E27A3F;
